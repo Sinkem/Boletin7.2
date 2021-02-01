@@ -4,8 +4,8 @@ import java.lang.IllegalArgumentException;
 
 public class Cerrojo {
 
-    int primerNum, segundoNum, tercerNum;
-    boolean combinacionCorrecta = false;
+    private int primerNum, segundoNum, tercerNum;
+    private boolean combinacionCorrecta = false;
 
     public Cerrojo() {
         primerNum = 5;
