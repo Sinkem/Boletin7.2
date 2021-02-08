@@ -6,5 +6,5 @@ public class Main {
 
         ord.mostrarCPU();
     }
-    
+
 }

@@ -2,9 +2,9 @@ package Ejercicio2;
 
 public class Ordenador {
 
-    Integer tamanioRam, velocidadRam, iva = 21;
-    String tipoRam, tipoDD, modeloCPU;
-    Double tamanioDD, velocidadCPU, precioBase = 1000.0, precioMercado;
+    private Integer tamanioRam, velocidadRam, iva = 21;
+    private String tipoRam, tipoDD, modeloCPU;
+    private Double tamanioDD, velocidadCPU, precioBase = 1000.0, precioMercado;
 
     public Ordenador(Integer tamanioRam, Integer velocidadRam, String tipoRam, String tipoDD, Double tamanioDD,
             String modeloCPU, Double velocidadCPU) {
@@ -23,7 +23,6 @@ public class Ordenador {
 
     public void mostrarRam() {
         System.out.println("Tamanio RAM: " + tamanioRam + " Velocidad RAM: " + velocidadRam + " Tipo RAM: " + tipoRam);
-        ;
     }
 
     public void mostrarCPU() {
