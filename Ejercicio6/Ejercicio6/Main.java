@@ -3,8 +3,8 @@ package Ejercicio6;
 public class Main {
     public static void main(String[] args) {
 
-        Carta carta = new Carta(5.2);
+        Carta carta = new Carta();
 
-        System.out.println(carta.);
+        carta.pedirCarta();
     }
 }
